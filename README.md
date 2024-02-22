@@ -27,6 +27,6 @@ As mentioned above, it is best to store passwords in a database. It is also good
 ## Running
 
 To run the project on your local machine, you can clone this repository using the command 
-<pre><code> https://github.com/korneevdi/Spring_Security_project.git </code></pre>
+<pre><code> git clone https://github.com/korneevdi/Spring_Security_project.git </code></pre>
 
 You also need MySQL database to store usernames and passwords of the employees.
