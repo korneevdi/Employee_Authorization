@@ -28,5 +28,5 @@ As mentioned above, it is best to store passwords in a database. It is also good
 
 To run the project on your local machine, you can clone this repository using the command 
 <pre><code>
-[Ваша строка здесь](https://github.com/korneevdi/Spring_Security_project.git)https://github.com/korneevdi/Spring_Security_project.git
+  https://github.com/korneevdi/Spring_Security_project.git
 </code></pre>
