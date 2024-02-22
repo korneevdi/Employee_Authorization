@@ -18,8 +18,11 @@ Create the **MySecurityInitializer** class that should just extend **AbstractSec
 
 Class **MySecurityConfig** contains annotation *@EnableWebSecurity* that makes it responsible for the security configuration. For this reason annotation *@Configuration* is not needed here. In this class we write usernames, passwords and worker roles. To do this, the class must extend **WebSecurityConfigurerAdapter** and override its method *configure* with parameter of type *AuthenticationManagerBuilder*. You can use the **UserBuilder** class to store passwords directly in the application, but no one does this today, so it’s better to use, for example, a database to store passwords. Nevertheless, you can find how to store data in the app in my project.
 
-## Running
-
 To create an authentication procedure, add the **MyController** class that contains *@Controller* annotation. This class contains three methods that render jsp-pages for different workers. These jsp-pages should be created in the **view** package using HTML. These pages, of course, can be made much more beautiful using CSS, for example, but this project shows functionality of Spring Security framework.
 
 If you only apply the authentication procedure (entering a username and password), then all employees will be able to see all the information on all web pages. To limit access to certain workers, we must also implement an authorization procedure. To do this, we should override another method in the **MySecurityConfig** class. This method also has name *configure*, but it takes a parameter of type *HttpSecurity*. This method distributes specific URLs among specific employee roles.
+
+As mentioned above, it is best to store passwords in a database. It is also good practice to encrypt passwords. For this purpose, the application uses the MySQL database with popular encryption algorithm *bcrypt*.
+
+
+## Running
