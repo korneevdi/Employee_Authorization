@@ -1,4 +1,4 @@
-package com.zaurtregulov.spring.security.configuration;
+package com.dmitriikorneev.spring.security.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
