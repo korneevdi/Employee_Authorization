@@ -1,6 +1,6 @@
 ## Description
 
-Spring Security provides functionality to ensure application security. Using this framework, you can, for example, carry out an authentication process, thanks to which you can compare the entered password with the password that is stored in the database. You can also carry out the authorization process, that is, checking permission to access resources.
+[Spring Security](https://spring.io/projects/spring-security) provides functionality to ensure application security. Using this framework, you can, for example, carry out an authentication process, thanks to which you can compare the entered password with the password that is stored in the database. You can also carry out the authorization process, that is, checking permission to access resources.
 
 This application is designed to carry out both procedures - authentication and authorization. The user enters some address into the browser. After this, he is asked for a username and password. If the data is entered correctly, the user gains access to a web page, the content of which depends on his position. The application covers three different positions: employee, HR and manager.
 
