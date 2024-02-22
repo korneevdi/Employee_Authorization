@@ -25,3 +25,8 @@ If you only apply the authentication procedure (entering a username and password
 As mentioned above, it is best to store passwords in a database. It is also good practice to encrypt passwords. For this purpose, the application uses the MySQL database with popular encryption algorithm *bcrypt*: https://www.browserling.com/tools/bcrypt. For this we should add an object of type *DataSource* with annotation *@Autowired* to the **MySecurityConfig** class.
 
 ## Running
+
+To run the project on your local machine, you can clone this repository using the command 
+<pre><code>
+[Ваша строка здесь](https://github.com/korneevdi/Spring_Security_project.git)https://github.com/korneevdi/Spring_Security_project.git
+</code></pre>
